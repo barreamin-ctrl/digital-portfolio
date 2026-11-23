@@ -1,0 +1,28 @@
+/* Sidhuvud och meny */
+.header { }
+.header__logo { }
+.header__logo { }
+.header__nav { }
+.header__list { }
+.header__item { } 
+.header__link { }
+.header__link--active { }
+
+/* Huvudinhåll och projekt */ 
+.main { }
+.projects { }
+.projects__title { }
+.projects__grind { }
+
+/* Projektkort */
+.project-card { }
+.project-card--feature { }
+.project-card__image { }
+.project-card__content { }
+.project-card__title { }
+.project-card__description { }
+.project-card__link { }
+
+/* Sidfot */
+.footer { }
+.footer__text { }
