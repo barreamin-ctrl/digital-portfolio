@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projekt - Digital Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page">
+
+<header class="header">
+    <div class="header__logo">Min Portfolio</div>
+    <nav class="header__nav" aria-label="Huvudmeny">
+        <ul class="header__list">
+            <li class="header__item">
+                <a href="index.html" class="header__link">Hem</a>
+            </li>
+            <li class="header__item">
+                <a href="projekt.html" class="header__link header__link--active">Projekt</a>
+            </li>
+            <li class="header__item">
+                <a href="kontakt.html" class="header__link">Kontakt</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<main class="main">
+    <section class="projects">
+        <h1 class="projects__title">Mina projekt</h1>
+        <div class="projects__grid">
+
+            <article class="project-card project-card--featured">
+                <img src="images/placeholder.jpg" alt="Skärmdump av projektet" class="project-card__image" width="400" height="300">
+                <div class="project-card__content">
+                    <h2 class="project-card__title">Projekt Namn 2</h2>
+                    <p class="project-card__description">Kort beskrivning av projektet och vilka teknologier som använts.</p>
+                    <a href="#" class="project-card__link">Läs mer</a>
+                </div>
+            </article>
+
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <p class="footer__text">&copy; 2026 Digital Portfolio</p>
+</footer>
+
+<script src="js/script.js" defer></script>
+</body>
+</html>
