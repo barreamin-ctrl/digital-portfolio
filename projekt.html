@@ -16,7 +16,7 @@
                 <a href="index.html" class="header__link">Hem</a>
             </li>
             <li class="header__item">
-                <a href="projekt.html" class="header__link header__link--active">Projekt</a>
+                <a href="projekt.html" class="header__link header__link--active" aria-current="page">Projekt</a>
             </li>
             <li class="header__item">
                 <a href="kontakt.html" class="header__link">Kontakt</a>
@@ -35,7 +35,17 @@
                 <div class="project-card__content">
                     <h2 class="project-card__title">Projekt Namn 2</h2>
                     <p class="project-card__description">Kort beskrivning av projektet och vilka teknologier som använts.</p>
-                    <a href="#" class="project-card__link">Läs mer</a>
+
+                    <!-- JS: Expandera projektkortet för att visa mer info -->
+                    <button type="button" class="project-card__action"
+                            data-js-action="expand"
+                            data-project-id="2"
+                            data-js-target="project-details">
+                        Läs mer
+                    </button>
+
+                    <div class="project-card__details" data-js-target="project-details" aria-live="polite"></div>
+
                 </div>
             </article>
 
