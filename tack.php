@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Digital portfolio som visar våra projekt, kompetenser och utbidlning inom webbutveckling.">
-    <title>Hem - Digital portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Hem - Digital Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="page">
     
     <header class="header">
-        <div class="header__logo">Min portfolio</div>
+        <div class="header__logo">Min Portfolio</div>
         <nav class="header__nav">
             <ul class="header__list>
             <li class="header__item"><a  href="index.html" class="header__link header__link--active">Hem</a></li>
@@ -32,7 +32,7 @@
     <p class="footer__text">&copy; 2026 Digital portfolio. Alla rättigheter förbehållna.</p>
     </footer>
 
-<script src="main.js"></script>
+<script src="js/script.js" defer></script>
 </body>
 </html>
 
